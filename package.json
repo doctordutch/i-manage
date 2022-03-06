@@ -1,0 +1,30 @@
+{
+  "name": "imanage",
+  "version": "1.0.0",
+  "description": "This CLI application uses Node and MySQL to allow a user to view and manage departments, roles, and employees in a company",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doctordutch/iManage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doctordutch/iManage/issues"
+  },
+  "homepage": "https://github.com/doctordutch/iManage#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {}
+}
